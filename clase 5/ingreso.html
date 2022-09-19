@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <div id="centrado">
+        <h1>Formulario de Ingreso</h1>
+    <form action="IngresoServlet" method="post">
+<fieldset>
+    <legend>  Ingreso </legend>
+
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" required name="nombre" placeholder="Aqui su nombre" maxlength="5" minlength="2">
+<br> <br>
+<label for="apellido">Apellido</label>
+<input type="text" id="apellido" name="apellido" required readonly="true" value="Chapo" placeholder="Aqui su Apellido" maxlength="5" minlength="2">
+<br> <br>
+<label for="pass">Password</label>
+<input type="password"  required >
+<br> <br>
+<label for="">Edad:</label>
+<input type="number" pattern="" min="18" max="99" disabled value="25" required>
+<br> <br>
+<label>F Nacimiento: </label>
+<input type="date" required>
+
+</fieldset>
+<br>
+<button type="sumbit">Enviar</button>
+</form>
+</div>
+</body>
+
+</html>
