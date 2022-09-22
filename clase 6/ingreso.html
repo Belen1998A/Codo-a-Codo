@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <div id="centrado">
+        <h1>Formulario de Ingreso</h1>
+    <form action="IngresoServlet" method="post">
+<fieldset>
+    <legend>  Ingreso </legend>
+
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" required name="nombre" placeholder="Aqui su nombre" maxlength="5" minlength="2">
+<br> <br>
+<label for="apellido">Apellido</label>
+<input type="text" id="apellido" name="apellido" required readonly="true" value="Chapo" placeholder="Aqui su Apellido" maxlength="5" minlength="2">
+<br> <br>
+<label for="pass">Password</label>
+<input type="password"  required >
+<br> <br>
+<label for="">Edad:</label>
+<input type="number" pattern="" min="18" max="99" disabled value="25" required>
+<br> <br>
+<label>Fecha de Nacimiento: </label>
+<input type="date" required>
+
+</fieldset>
+<br>
+<fieldset>
+    <legend><b>Provincias</b></legend>
+
+    <label for="">Provincias</label>
+    <select name="" id="">
+
+        <option value="0" selected>Sin Informar ...</option>
+        <option value="1">Buenos Aires</option>
+        <option value="2">Cordoba</option>
+        <option value="3" selected>Salta</option>
+    </select>
+</fieldset>
+<br>
+<fieldset>
+    <legend>Marca del Coche</legend>
+<label for="">Marcas</label>
+<select multiple>
+    <option value="0" >Sin Informar ...</option>
+     <optgroup label=Nacional>
+        <option value="1">Fiat</option>
+        <option value="2">Ford</option>
+        <option value="3">Citroen</option>
+    </optgroup>
+
+    <optgroup label="Importados">
+        <option value="4">Alfa Romeo</option>
+        <option value="5">Audi</option>
+        <option value="6">Lamborghini</option>
+    </optgroup>
+</select>
+<br><br>
+<legend><b>Elija el Color</b></legend>
+<input type="color">
+<br><br>
+<fieldset>
+    <legend>Lenguajes</legend>
+<label for="">PHP
+<input type="checkbox" value="1" id="" name="php">
+</label>
+<label for="">NET
+    <input type="checkbox" value="2" id="" name="net">
+    </label>
+    <label for="">JAVA
+        <input type="checkbox" value="3" id="" name="java">
+        </label>
+        <label for="">HTML
+            <input type="checkbox" value="4" id="" name="html">
+            </label>
+</fieldset>
+<fieldset>
+    <legend>Mascotas</legend>
+    <label for="">Perro
+        <input type="radio" value="" id="" name="mascota">
+    </label>
+    <label for="">Gato
+        <input type="radio" value="" id="" name="mascota">
+    </label>
+    <label for="">Loro
+        <input type="radio" value="" id="" name="mascota">
+    </label>
+</fieldset>
+</fieldset>
+<br> 
+<fieldset>
+    <legend>TU OPINION NOS IMPORTA:</legend>
+<textarea cols="60" rows="4">escriba su opinion personal</textarea>
+</fieldset>
+<br><br>
+<input type="reset" >
+
+<button type="sumbit"><b>Enviar</b></button>
+</form>
+</div>
+</body>
+
+</html>
