@@ -1,0 +1,61 @@
+/*Selector Clase*/
+.textosH1
+{
+    color: red;
+}
+
+h1
+{
+    color: green;
+    text-align: center;
+}
+
+h2
+{
+    color: blue;
+    text-align: center;
+}
+
+/*Selector Id*/
+#textoH1
+{
+color: orangered;
+}
+
+body
+{
+    /*background-color: purple; */
+    background-image: url("../img/fondo.jpg");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.claseP
+{
+    color: white;
+    font-family: "Arial" ;
+    font-size:50 px;
+    font-style: oblique;
+    word-spacing: 40px;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+
+p
+{
+    border-style: double;
+    color: chartreuse;
+    border-top-style: dotted;
+    border-bottom-style: groove;
+    border-width: 8px;
+    font-weight: 600;
+}
+
+.boton
+{
+    text-decoration: none;
+    border: none;
+    background-color: yellow;
+    font-size: 18px;
+    display: inline-block;
+}
