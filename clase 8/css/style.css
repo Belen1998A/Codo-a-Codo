@@ -1,0 +1,82 @@
+*
+{
+    margin: 0;
+    padding: auto;
+
+}
+
+
+
+div 
+{
+    width: 50%;
+    height: 200px;
+}
+
+#uno
+{
+    background-color: brown ;
+}
+
+#dos
+{
+    background-color: yellow;
+}
+
+#tres
+{
+    background-color: red;
+}
+
+section ~ p /*todas las p despues de un section*/
+{
+   /* color: blue;*/
+}
+
+div p /*todas las p que esten dentro de un div*/
+{
+    /*color: coral;*/
+}
+
+div > p
+{
+    color: green;
+}
+
+#clasehover
+{
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+}
+
+#clasehover:hover
+{
+    background-color: coral;
+}
+
+p:first-child
+{
+    color: grey; 
+}
+
+a 
+{
+text-decoration: none;
+
+}
+
+a:hover
+{
+    color: red;
+}
+
+a:visited
+{
+    color:forestgreen;
+}
+
+a:active
+{
+    color: deeppink;
+}
