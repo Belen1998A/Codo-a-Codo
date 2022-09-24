@@ -80,3 +80,8 @@ a:active
 {
     color: deeppink;
 }
+
+input:focus
+{
+    background-color: lightseagreen;
+}
