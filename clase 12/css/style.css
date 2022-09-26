@@ -1,0 +1,32 @@
+.principal
+{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: kprincipal;
+    animation-delay: 10s;
+    animation-duration: 15s;
+    
+}
+
+.secundario
+{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    animation-name: ksecundario;
+    animation-duration: 15s;
+
+}
+
+@keyframes kprincipal
+{
+    from{background-color: red;}
+    to{background-color: yellow;}
+}
+
+@keyframes ksecundario
+{
+    from{background-color: yellow;}
+    to{background-color: red;}
+}

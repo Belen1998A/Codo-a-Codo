@@ -1,0 +1,16 @@
+#container
+{
+    width: 80%;
+    height: 700px;
+    margin: auto;
+}
+
+#carusel
+{
+    border-radius: 10px;
+}
+
+#alert
+{
+    text-align: center;
+}
